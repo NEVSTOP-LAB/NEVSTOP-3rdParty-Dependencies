@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-11-09 20:39:48" Modified_Date="2022-11-10 13:19:07" Creator="IECUBE" Comments="" ID="f2ece146a920b8380de71920d90634c6">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-11-09 20:39:48" Modified_Date="2022-11-21 09:56:33" Creator="IECUBE" Comments="" ID="356abd20e1378e65db6835c14c3eb629">
   <Library_General_Settings>
     <Package_File_Name>NEVSTOP_3rdParty_Dependencies</Package_File_Name>
-    <Library_Version>1.0.0.4</Library_Version>
+    <Library_Version>2022.11.21.4</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>src</Library_Source_Folder>
     <Library_Output_Folder>vip</Library_Output_Folder>
@@ -19,6 +19,7 @@
     <Package_Dependencies>
       <Additional_External_Dependencies>jki_lib_state_machine &gt;=2018.0.7.45</Additional_External_Dependencies>
       <Additional_External_Dependencies>mgi_lib_mgi_library &gt;=1.2.0.4</Additional_External_Dependencies>
+      <Additional_External_Dependencies>nevstop_lib_globalstop &gt;=2022.11.8.171618</Additional_External_Dependencies>
       <Additional_External_Dependencies>ni_lib_amc &gt;=3.3.1.22</Additional_External_Dependencies>
       <Additional_External_Dependencies>ni_lib_ccc &gt;=3.0.3.9</Additional_External_Dependencies>
       <Additional_External_Dependencies>ni_lib_cvt &gt;=3.3.0.13</Additional_External_Dependencies>
@@ -218,7 +219,7 @@
       <skip_mass_compile_after_install>false</skip_mass_compile_after_install>
     </LabVIEW>
     <VI_Docs>
-      <Edit_VI_Description>false</Edit_VI_Description>
+      <Edit_VI_Description>true</Edit_VI_Description>
       <Text_to_Add>{product_name} {version_number}
 {author_name} - {company_name}
 {copyright}</Text_to_Add>
