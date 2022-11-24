@@ -43,7 +43,7 @@ jobs:
 
       - name: BuildDailyVIP
         id: build-vip
-        run: echo "Result=abc.txt" >> $GITHUB_OUTPUT
+        run: echo "Result=abctxt" >> $GITHUB_OUTPUT
         shell: powershell
     
       - id: vip-name
