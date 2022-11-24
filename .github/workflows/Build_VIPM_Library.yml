@@ -41,6 +41,13 @@ jobs:
 #          Parameter1: ${{ github.workspace }}\NEVSTOP-3rdParty-Dependencies.vipb
 #          Parameter2: NO
 
+      - name: Set color
+        id: random-color-generator
+        run: echo "SELECTED_COLOR=green" >> $GITHUB_OUTPUT
+        
+      - name: Get color
+        run: echo "The selected color is ${{ steps.random-color-generator.outputs.SELECTED_COLOR }}"
+
       - name: BuildDailyVIP
         id: build-vip
         run: echo "Result=abctxt" >> $GITHUB_OUTPUT
