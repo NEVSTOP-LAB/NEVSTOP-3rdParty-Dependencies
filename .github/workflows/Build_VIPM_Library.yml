@@ -44,7 +44,7 @@ jobs:
       - name: BuildDailyVIP
         id: build-vip
         run: |
-          $Result=C:\actions-runner\_work\NEVSTOP-3rdParty-Dependencies\NEVSTOP-3rdParty-Dependencies\vip\nevstop_3rdparty_dependencies-2022.11.24.183824.vip
+          $Result="C:\actions-runner\_work\NEVSTOP-3rdParty-Dependencies\NEVSTOP-3rdParty-Dependencies\vip\nevstop_3rdparty_dependencies-2022.11.24.183824.vip"
           echo "Result=$Result" >> $GITHUB_OUTPUT
         shell: powershell
     
