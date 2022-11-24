@@ -1,6 +1,13 @@
 # NEVSTOP-3rdParty-Dependencies
 
 [![Build_VIPM_Library](https://github.com/NEVSTOP-LAB/NEVSTOP-3rdParty-Dependencies/actions/workflows/Build_VIPM_Library.yml/badge.svg)](https://github.com/NEVSTOP-LAB/NEVSTOP-3rdParty-Dependencies/actions/workflows/Build_VIPM_Library.yml)
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+
+## **COPYRIGHT STATEMENT**
+
+>  
+> **All Refered Libaries belongs to its own owner, Please notice and follow their LICENSE.**
+>
 
 ## NEVSTOP Lab
 
