@@ -56,12 +56,13 @@ jobs:
           if-no-files-found: warn
           retention-days: 90
         
-      - name: Simple File Upload
-        uses: bayssmekanique/action-simple-file-upload@v1.1.3
+      - name: Simple FTP upload
+        uses: dennisameling/ftp-upload-action@v1.0.9
         with:
-          host: ${{ secrets.VIPM_FTP_IP }}
+          server: ${{ secrets.VIPM_FTP_IP }}
           port: ${{ secrets.VIPM_FTP_PORT }}
-          user: ${{ secrets.VIPM_FTP_USER }}
+          username: ${{ secrets.VIPM_FTP_USER }}
           password: ${{ secrets.VIPM_FTP_PASSWORD }}
-          src: ${{ steps.build-vip.outputs.Result }}
-          dest: /${{ env.CI_ACTION_REF_NAME }}/${{ env.CI_REPOSITORY_OWNER_SLUG }}/${{ env.CI_REPOSITORY_NAME }}/
+          server_dir: /${{ env.CI_ACTION_REF_NAME }}/${{ env.CI_REPOSITORY_OWNER_SLUG }}/${{ env.CI_REPOSITORY_NAME }}/
+          local_dir: ./vip/
+          
