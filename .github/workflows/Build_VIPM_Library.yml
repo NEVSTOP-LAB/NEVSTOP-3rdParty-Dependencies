@@ -55,13 +55,13 @@ jobs:
           # The desired behavior if no files are found using the provided path.
           if-no-files-found: warn
           retention-days: 90
-
-      - name: Backup file with ftp
-        uses: SamKirkland/FTP-Deploy-Action@4.3.3
+        
+      - name: Simple File Upload
+        uses: bayssmekanique/action-simple-file-upload@v1.1.3
         with:
-          server: ${{ secrets.VIPM_FTP_IP }}
+          host: ${{ secrets.VIPM_FTP_IP }}
           port: ${{ secrets.VIPM_FTP_PORT }}
-          username: ${{ secrets.VIPM_FTP_USER }}
+          user: ${{ secrets.VIPM_FTP_USER }}
           password: ${{ secrets.VIPM_FTP_PASSWORD }}
-          server-dir: /${{ env.CI_ACTION_REF_NAME }}/${{ env.CI_REPOSITORY_OWNER_SLUG }}/${{ env.CI_REPOSITORY_NAME }}/
-          local-dir: ./vip/
+          src: ${{ steps.build-vip.outputs.Result }}
+          dest: /${{ env.CI_ACTION_REF_NAME }}/${{ env.CI_REPOSITORY_OWNER_SLUG }}/${{ env.CI_REPOSITORY_NAME }}/
