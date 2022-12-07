@@ -23,48 +23,8 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
 
-      - uses: FranzDiebold/github-env-vars-action@v2
-      - name: Print environment variables
-        run: |
-          echo "CI_REPOSITORY_SLUG=$CI_REPOSITORY_SLUG"
-          echo "CI_REPOSITORY_OWNER=$CI_REPOSITORY_OWNER"
-          echo "CI_REPOSITORY_OWNER_SLUG=$CI_REPOSITORY_OWNER_SLUG"
-          echo "CI_REPOSITORY_NAME=$CI_REPOSITORY_NAME"
-          echo "CI_REPOSITORY_NAME_SLUG=$CI_REPOSITORY_NAME_SLUG"
-          echo "CI_REPOSITORY=$CI_REPOSITORY"
-          echo "CI_REF_SLUG=$CI_REF_SLUG"
-          echo "CI_ACTION_REF_NAME=$CI_ACTION_REF_NAME"
-          echo "CI_ACTION_REF_NAME_SLUG=$CI_ACTION_REF_NAME_SLUG"
-          echo "CI_REF_NAME=$CI_REF_NAME"
-          echo "CI_REF_NAME_SLUG=$CI_REF_NAME_SLUG"
-          echo "CI_REF=$CI_REF"
-          echo "CI_HEAD_REF_SLUG=$CI_HEAD_REF_SLUG"
-          echo "CI_HEAD_REF=$CI_HEAD_REF"
-          echo "CI_BASE_REF_SLUG=$CI_BASE_REF_SLUG"
-          echo "CI_BASE_REF=$CI_BASE_REF"
-          echo "CI_SHA_SHORT=$CI_SHA_SHORT"
-          echo "CI_SHA=$CI_SHA"
-          echo "CI_PR_SHA_SHORT=$CI_PR_SHA_SHORT"
-          echo "CI_PR_SHA=$CI_PR_SHA"
-          echo "CI_PR_NUMBER=$CI_PR_NUMBER"
-          echo "CI_PR_ID=$CI_PR_ID"
-          echo "CI_PR_TITLE=$CI_PR_TITLE"
-          echo "CI_PR_DESCRIPTION=$CI_PR_DESCRIPTION"
-          echo "CI_ACTOR=$CI_ACTOR"
-          echo "CI_EVENT_NAME=$CI_EVENT_NAME"
-          echo "CI_RUN_ID=$CI_RUN_ID"
-          echo "CI_RUN_NUMBER=$CI_RUN_NUMBER"
-          echo "CI_WORKFLOW=$CI_WORKFLOW"
-          echo "CI_ACTION=$CI_ACTION"
-      
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
-
-      # - name: vipm_InstallPackagesByName
-      #   uses: LV-APT/lvCICD@main
-      #   with:
-      #     Operation: vipm_InstallPackagesByName
-      #     Parameter1: 'Git API'
 
       # Runs a set of commands using the runners shell
       - name: BuildDailyVIP
@@ -90,14 +50,14 @@ jobs:
           path: ${{ steps.build-vip.outputs.Result }}
           # The desired behavior if no files are found using the provided path.
           if-no-files-found: warn
-          retention-days: 90          
+          retention-days: 90
 
-      - name: backup build artifact by ftp
-        uses: sebastianpopp/ftp-action@releases/v2
+      - name: 📂 Sync files
+        uses: SamKirkland/FTP-Deploy-Action@4.3.3
         with:
-          host: ${{ secrets.VIPM_FTP_IP }}
-          user: ${{ secrets.VIPM_FTP_USER }}
+          server: ${{ secrets.VIPM_FTP_IP }}
+          port: ${{ secrets.VIPM_FTP_PORT }}
+          username: ${{ secrets.VIPM_FTP_USER }}
           password: ${{ secrets.VIPM_FTP_PASSWORD }}
-          localDir: ${{ steps.build-vip.outputs.Result }}
-          remoteDir: "$CI_REPOSITORY_NAME"
-          options: "--delete --asci"
+          local-dir: Split-Path -Path ${{ steps.build-vip.outputs.Result }} -parent
+          server-dir: /nevstop-lab/NEVSTOP-3rdParty-Dependencies/
