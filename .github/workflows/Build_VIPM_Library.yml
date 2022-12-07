@@ -55,8 +55,10 @@ jobs:
           # The desired behavior if no files are found using the provided path.
           if-no-files-found: warn
           retention-days: 90
-        
-      - name: Simple FTP upload
+      
+      # Backup generated files by ftp
+      # https://github.com/marketplace/actions/simple-ftp-upload
+      - name: backup Build Artifact by ftp
         uses: dennisameling/ftp-upload-action@v1.0.9
         with:
           server: ${{ secrets.VIPM_FTP_IP }}
