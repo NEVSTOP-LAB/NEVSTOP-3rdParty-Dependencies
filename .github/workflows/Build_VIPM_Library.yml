@@ -63,5 +63,5 @@ jobs:
           port: ${{ secrets.VIPM_FTP_PORT }}
           username: ${{ secrets.VIPM_FTP_USER }}
           password: ${{ secrets.VIPM_FTP_PASSWORD }}
-          server-dir: /${{ env.CI_REPOSITORY_OWNER_SLUG }}/${{ env.CI_REPOSITORY_NAME }}/
+          server-dir: /${{ env.CI_ACTION_REF_NAME }}/${{ env.CI_REPOSITORY_OWNER_SLUG }}/${{ env.CI_REPOSITORY_NAME }}/
           local-dir: ./vip/
