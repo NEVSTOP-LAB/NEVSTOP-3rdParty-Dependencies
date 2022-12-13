@@ -40,7 +40,10 @@
 - NI CVT Client Communication (CCC) >= 3.0.3.9
 - NI Current Value Table >= 3.3.0.13
 - NI Event Logger Library >= 1.0.0.9
-- NI Linux RT Utilities >= 1.1.1.9
 - NI Software Watchdog >= 1.0.0.24
 - NI String Tools Library >= 2.0.0.5
 - NI Syslog Library >= 1.3.3.27
+- NI Linux RT Errno >= 1.1.2.9
+- NI Linux RT Inter-Process Communication >= 1.5.1.19
+- NI Linux RT Utilities >= 1.1.1.9
+- NI RT Management >= 1.1.1.41
