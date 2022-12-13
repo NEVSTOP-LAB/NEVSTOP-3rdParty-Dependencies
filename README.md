@@ -9,12 +9,6 @@
 > **All Refered Libaries belongs to its own owner, Please notice and follow their LICENSE.**
 >
 
-## NEVSTOP Lab
-
-> LabVIEW Libraries from NEVSTOP.
-
-- [LabVIEW-GlobalStop-Library](https://github.com/NEVSTOP-LAB/LabVIEW-GlobalStop-Library) >= 2022.11.8.171618
-
 ## OpenG Toolkit
 
 > The OpenG Toolkit package installs the OpenG Libraries 4.0: Application Control, Array, Boolean, Buttons Comparison, Dictionary, Error, File, LabVIEW Data, LabVIEW ZIP, Large File, MD5, Message Queue, Numeric, Picture, Port IO, String, Time and Variant Configuration File.
