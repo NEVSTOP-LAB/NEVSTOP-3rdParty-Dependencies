@@ -10,6 +10,10 @@ on:
       - main
     types: [closed]
 
+  push:
+    paths-ignore:
+      - '**.md'
+
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
@@ -23,7 +27,7 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
 
-      # Get env variables 
+      # Get env variables
       # https://github.com/marketplace/actions/github-environment-variables-action
       - uses: FranzDiebold/github-env-vars-action@v2
 
@@ -33,29 +37,21 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: BuildDailyVIP
         id: build-vip
-        uses: LV-APT/lvCICD@main
+        uses: NEVSTOP-LAB/vipm-BuildViPackage@main
         with:
           LabVIEW_Version: 2014
-          Operation: vipm_BuildDailyVIP
-          Parameter1: ${{ github.workspace }}\NEVSTOP-3rdParty-Dependencies.vipb
-          Parameter2: NO
-
-      - id: vip-name
-        run:
-          $vipName=Split-Path -Path ${{ steps.build-vip.outputs.Result }} -Leaf;
-          Write-Host "::set-output name=vipName::"$vipName""
-        shell: powershell
+          VipbPath: ${{ github.workspace }}
 
       - name: Upload a Build Artifact
         uses: actions/upload-artifact@v3.0.0
         with:
           # Artifact name
-          name: ${{ steps.vip-name.outputs.vipName }}
-          path: ${{ steps.build-vip.outputs.Result }}
+          name: ${{ steps.build-vip.outputs.vipName }}
+          path: ${{ steps.build-vip.outputs.vipPathName }}
           # The desired behavior if no files are found using the provided path.
           if-no-files-found: warn
           retention-days: 90
-      
+
       # Backup generated files by ftp
       # https://github.com/marketplace/actions/simple-ftp-upload
       - name: backup Build Artifact by ftp
@@ -68,4 +64,3 @@ jobs:
           secure: false
           server_dir: /${{ env.CI_REPOSITORY_OWNER_SLUG }}/${{ env.CI_REPOSITORY_NAME }}/${{ env.CI_ACTION_REF_NAME }}/
           local_dir: ./vip/
-          
