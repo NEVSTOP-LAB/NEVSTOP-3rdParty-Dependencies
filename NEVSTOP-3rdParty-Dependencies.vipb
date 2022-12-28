@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-11-09 20:39:48" Modified_Date="2022-12-15 11:12:38" Creator="IECUBE" Comments="" ID="3bb14e0de525f4ac75e117b6cc582899">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-11-09 20:39:48" Modified_Date="2022-12-28 22:11:56" Creator="IECUBE" Comments="" ID="c280da5e4e780d0e6c9c98a2055d9d2f">
   <Library_General_Settings>
     <Package_File_Name>NEVSTOP_3rdParty_Dependencies</Package_File_Name>
-    <Library_Version>2022.12.13.7</Library_Version>
+    <Library_Version>2022.12.28.7</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>src</Library_Source_Folder>
     <Library_Output_Folder>vip</Library_Output_Folder>
@@ -18,6 +18,7 @@
   <Advanced_Settings>
     <Package_Dependencies>
       <Additional_External_Dependencies>gpower_lib_all &gt;=2017.0.0.11</Additional_External_Dependencies>
+      <Additional_External_Dependencies>jki_lib_easyxml &gt;=3.0.0.170</Additional_External_Dependencies>
       <Additional_External_Dependencies>jki_lib_state_machine &gt;=2018.0.7.45</Additional_External_Dependencies>
       <Additional_External_Dependencies>mgi_lib_mgi_library &gt;=1.2.0.4</Additional_External_Dependencies>
       <Additional_External_Dependencies>ni_lib_amc &gt;=3.3.1.22</Additional_External_Dependencies>
@@ -80,13 +81,13 @@
       <Copyright/>
       <Packager>NEVSTOP</Packager>
       <URL>https://github.com/NEVSTOP-LAB/NEVSTOP-3rdParty-Dependencies</URL>
-      <Release_Notes>1. change addon palette width to 6
-2. add palette for those 3rd party libraries
-3. add more dependencies
-NI Linux RT Errno &gt;= 1.1.2.9
-NI Linux RT Inter-Process Communication &gt;= 1.5.1.19
-NI Linux RT Utilities &gt;= 1.1.1.9
-NI RT Management &gt;= 1.1.1.41</Release_Notes>
+      <Release_Notes>add:
+ - EasyXML Toolkit for LabVIEW
+ - JKI JSON
+ - OpenSerializer
+ - OpenSerializer JKI Json
+ - OpenSerializer easyXML
+ - OpenSerializer Base64</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
