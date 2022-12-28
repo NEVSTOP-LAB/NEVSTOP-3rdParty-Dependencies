@@ -7,7 +7,7 @@
 
 ## **COPYRIGHT STATEMENT**
 
->  
+>
 > **All Refered Libaries belongs to its own owner, Please notice and follow their LICENSE.**
 >
 
@@ -28,6 +28,8 @@
 ## JKI
 
 - JKI State Machine >= 2018.0.7.45
+- EasyXML Toolkit for LabVIEW v3.0.0.170 by JKI
+- JKI JSON v1.1.10.37 by JKI
 
 ## GPower
 
@@ -61,3 +63,10 @@
 - NI Linux RT Inter-Process Communication >= 1.5.1.19
 - NI Linux RT Utilities >= 1.1.1.9
 - NI RT Management >= 1.1.1.41
+
+## LabVIEW Open Source Project
+
+ - OpenSerializer v1.2.1.16 by LabVIEW Open Source Project
+ - OpenSerializer.Base64 v1.0.2.4 by LabVIEW Open Source Project
+ - OpenSerializer easyXML v1.0.0.1 by LabVIEW Open Source Project
+ - OpenSerializer JKI JSON v1.0.0.1 by LabVIEW Open Source Project

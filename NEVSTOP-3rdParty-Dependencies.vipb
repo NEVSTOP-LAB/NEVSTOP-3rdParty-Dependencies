@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-11-09 20:39:48" Modified_Date="2022-12-15 11:12:38" Creator="IECUBE" Comments="" ID="3bb14e0de525f4ac75e117b6cc582899">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-11-09 20:39:48" Modified_Date="2022-12-28 22:27:56" Creator="IECUBE" Comments="" ID="3ee2eba2df0f3f4b2d3f280553fc012d">
   <Library_General_Settings>
     <Package_File_Name>NEVSTOP_3rdParty_Dependencies</Package_File_Name>
-    <Library_Version>2022.12.13.7</Library_Version>
+    <Library_Version>2022.12.28.7</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>src</Library_Source_Folder>
     <Library_Output_Folder>vip</Library_Output_Folder>
@@ -18,6 +18,7 @@
   <Advanced_Settings>
     <Package_Dependencies>
       <Additional_External_Dependencies>gpower_lib_all &gt;=2017.0.0.11</Additional_External_Dependencies>
+      <Additional_External_Dependencies>jki_lib_easyxml &gt;=3.0.0.170</Additional_External_Dependencies>
       <Additional_External_Dependencies>jki_lib_state_machine &gt;=2018.0.7.45</Additional_External_Dependencies>
       <Additional_External_Dependencies>mgi_lib_mgi_library &gt;=1.2.0.4</Additional_External_Dependencies>
       <Additional_External_Dependencies>ni_lib_amc &gt;=3.3.1.22</Additional_External_Dependencies>
@@ -47,46 +48,81 @@
     <VI_Package_Configuration_File>NEVSTOP-3rdParty-Dependencies.vipc</VI_Package_Configuration_File>
     <Description>
       <One_Line_Description_Summary/>
-      <Description>## OpenG Toolkit
+      <Description>## **COPYRIGHT STATEMENT**
+
+&gt;  
+&gt; **All Refered Libaries belongs to its own owner, Please notice and follow their LICENSE.**
+&gt;
+
+## OpenG Toolkit
 
 &gt; The OpenG Toolkit package installs the OpenG Libraries 4.0: Application Control, Array, Boolean, Buttons Comparison, Dictionary, Error, File, LabVIEW Data, LabVIEW ZIP, Large File, MD5, Message Queue, Numeric, Picture, Port IO, String, Time and Variant Configuration File.
 
-    OpenG Toolkit &gt;= 4.0.1.9
-    OpenG Variant Data Library &gt;= 5.0.0.27
-    OpenG String Library &gt;= 5.0.0.25
+- OpenG Toolkit &gt;= 4.0.1.9
+- OpenG Variant Data Library &gt;= 5.0.0.27
+- OpenG String Library &gt;= 5.0.0.25
 
 ## MGI Library
 
 &gt; The MGI Library is a collection of the VIs used most heavily by Moore Good Ideas employees. The Library is free to use and distribute, and is provided as a public service to the LabVIEW Community by Moore Good Ideas. Enjoy!
 
-    MGI Library &gt;= 1.2.0.4
+- MGI Library &gt;= 1.2.0.4
 
 ## JKI
 
-    JKI State Machine &gt;= 2018.0.7.45
+- JKI State Machine &gt;= 2018.0.7.45
+- EasyXML Toolkit for LabVIEW v3.0.0.170 by JKI
+- JKI JSON v1.1.10.37 by JKI
+
+## GPower
+
+&gt; The GPower Toolkit is free software that provides reuse libraries for the LabVIEW programming environment. Download GPower Toolkit and find support information. You can use this download page to access GPower Toolkit and all available editions are available from this download page.
+
+  This Package depends on these other packages:
+-  GPower Array &gt;= 2016.2.0.27
+-  GPower Comparison &gt;= 2016.0.0.4
+-  GPower Error &amp; Warning &gt;= 2014.0.0.38
+-  GPower Events &gt;= 2012.0.0.7
+-  GPower Math &gt;= 2012.1.0.6
+-  GPower Numeric &gt;= 2016.2.0.14
+-  GPower Overflow &gt;= 2014.0.0.4
+-  GPower String &gt;= 2016.1.0.11
+-  GPower Timing &gt;= 2017.0.0.26
+-  GPower VI Launcher &gt;= 2012.2.0.26
+-  GPower VI Register &gt;= 2016.0.0.31
+
 
 ## National Instruments
 
-    NI Simple Messaging (STM) Library &gt;= 3.1.0.9
-    NI Asynchronous Message Communication (AMC) Library &gt;= 3.3.1.22
-    NI CVT Client Communication (CCC) &gt;= 3.0.3.9
-    NI Current Value Table &gt;= 3.3.0.13
-    NI Event Logger Library &gt;= 1.0.0.9
-    NI Linux RT Utilities &gt;= 1.1.1.9
-    NI Software Watchdog &gt;= 1.0.0.24
-    NI String Tools Library &gt;= 2.0.0.5
-    NI Syslog Library &gt;= 1.3.3.27
-</Description>
+- NI Simple Messaging (STM) Library &gt;= 3.1.0.9
+- NI Asynchronous Message Communication (AMC) Library &gt;= 3.3.1.22
+- NI CVT Client Communication (CCC) &gt;= 3.0.3.9
+- NI Current Value Table &gt;= 3.3.0.13
+- NI Event Logger Library &gt;= 1.0.0.9
+- NI Software Watchdog &gt;= 1.0.0.24
+- NI String Tools Library &gt;= 2.0.0.5
+- NI Syslog Library &gt;= 1.3.3.27
+- NI Linux RT Errno &gt;= 1.1.2.9
+- NI Linux RT Inter-Process Communication &gt;= 1.5.1.19
+- NI Linux RT Utilities &gt;= 1.1.1.9
+- NI RT Management &gt;= 1.1.1.41
+
+## LabVIEW Open Source Project
+
+ - OpenSerializer v1.2.1.16 by LabVIEW Open Source Project
+ - OpenSerializer.Base64 v1.0.2.4 by LabVIEW Open Source Project
+ - OpenSerializer easyXML v1.0.0.1 by LabVIEW Open Source Project
+ - OpenSerializer JKI JSON v1.0.0.1 by LabVIEW Open Source Project</Description>
       <Copyright/>
       <Packager>NEVSTOP</Packager>
       <URL>https://github.com/NEVSTOP-LAB/NEVSTOP-3rdParty-Dependencies</URL>
-      <Release_Notes>1. change addon palette width to 6
-2. add palette for those 3rd party libraries
-3. add more dependencies
-NI Linux RT Errno &gt;= 1.1.2.9
-NI Linux RT Inter-Process Communication &gt;= 1.5.1.19
-NI Linux RT Utilities &gt;= 1.1.1.9
-NI RT Management &gt;= 1.1.1.41</Release_Notes>
+      <Release_Notes>add:
+ - EasyXML Toolkit for LabVIEW
+ - JKI JSON
+ - OpenSerializer
+ - OpenSerializer JKI Json
+ - OpenSerializer easyXML
+ - OpenSerializer Base64</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
