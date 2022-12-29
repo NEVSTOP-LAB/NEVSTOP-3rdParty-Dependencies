@@ -28,8 +28,8 @@
 ## JKI
 
 - JKI State Machine >= 2018.0.7.45
-- EasyXML Toolkit for LabVIEW v3.0.0.170 by JKI
-- JKI JSON v1.1.10.37 by JKI
+- EasyXML Toolkit for LabVIEW  >= v3.0.0.170
+- JKI JSON >= v1.1.10.37
 
 ## GPower
 
@@ -66,7 +66,7 @@
 
 ## LabVIEW Open Source Project
 
- - OpenSerializer v1.2.1.16 by LabVIEW Open Source Project
- - OpenSerializer.Base64 v1.0.2.4 by LabVIEW Open Source Project
- - OpenSerializer easyXML v1.0.0.1 by LabVIEW Open Source Project
- - OpenSerializer JKI JSON v1.0.0.1 by LabVIEW Open Source Project
+ - OpenSerializer >= v1.2.1.16
+ - OpenSerializer.Base64 >= v1.0.2.4 
+ - OpenSerializer easyXML >= v1.0.0.1 
+ - OpenSerializer JKI JSON >= v1.0.0.1 
