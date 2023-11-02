@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-11-09 20:39:48" Modified_Date="2023-11-02 18:25:46" Creator="IECUBE" Comments="" ID="6144493d6a5fb12230051efc950a5960">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-11-09 20:39:48" Modified_Date="2023-11-02 18:28:27" Creator="IECUBE" Comments="" ID="622dca2ced5e196166b309c89d0ae08a">
   <Library_General_Settings>
     <Package_File_Name>NEVSTOP_3rdParty_Dependencies</Package_File_Name>
     <Library_Version>2023.11.2.7</Library_Version>
@@ -123,8 +123,7 @@
       <Copyright/>
       <Packager>NEVSTOP</Packager>
       <URL>https://github.com/NEVSTOP-LAB/NEVSTOP-3rdParty-Dependencies</URL>
-      <Release_Notes>add:
- - Epoch Date &amp; Time v1.2.0.6 by LabVIEW Open Source Project</Release_Notes>
+      <Release_Notes>[add] #20 Epoch Date &amp; Time v1.2.0.6 by LabVIEW Open Source Project</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
