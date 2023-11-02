@@ -67,6 +67,7 @@
 ## LabVIEW Open Source Project
 
  - OpenSerializer >= v1.2.1.16
- - OpenSerializer.Base64 >= v1.0.2.4 
- - OpenSerializer easyXML >= v1.0.0.1 
- - OpenSerializer JKI JSON >= v1.0.0.1 
+ - OpenSerializer.Base64 >= v1.0.2.4
+ - OpenSerializer easyXML >= v1.0.0.1
+ - OpenSerializer JKI JSON >= v1.0.0.1
+ - Epoch Date & Time >= 1.2.0.6
