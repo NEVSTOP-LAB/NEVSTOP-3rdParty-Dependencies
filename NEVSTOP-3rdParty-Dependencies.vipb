@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-11-09 20:39:48" Modified_Date="2024-01-05 14:12:54" Creator="IECUBE" Comments="" ID="ab47f92562b8bbdd8fd5b547cf199660">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-11-09 20:39:48" Modified_Date="2024-01-05 14:25:11" Creator="IECUBE" Comments="" ID="8e9b349a67eed5007b9d24ccf5a949b3">
   <Library_General_Settings>
     <Package_File_Name>NEVSTOP_3rdParty_Dependencies</Package_File_Name>
     <Library_Version>2024.1.5.7</Library_Version>
@@ -59,8 +59,8 @@
 
 ## **COPYRIGHT STATEMENT**
 
-&gt;  
-&gt; **All Refered Libaries belongs to its own owner, Please notice and follow their LICENSE.**
+&gt;
+&gt; **All Referred Libraries belongs to its own owner, Please notice and follow their LICENSE.**
 &gt;
 
 ## OpenG Toolkit
@@ -127,12 +127,10 @@
       <Copyright/>
       <Packager>NEVSTOP</Packager>
       <URL>https://github.com/NEVSTOP-LAB/NEVSTOP-3rdParty-Dependencies</URL>
-      <Release_Notes>v2024.01.05
-[update] #22 Update Data Manipulation by LabVIEW Open Source Project to 1.6.0.16
-
-v2023.07.06
-[add] #20 Epoch Date &amp; Time v1.2.0.6 by LabVIEW Open Source Project
-[update] set related control palette width to 6</Release_Notes>
+      <Release_Notes>[update] #22 Update Data Manipulation by LabVIEW Open Source Project to 1.6.0.16
+[update] Show NEVSTOP-3rdParty-Dependencies.mnu in root palette
+[fix] fix typo
+</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>

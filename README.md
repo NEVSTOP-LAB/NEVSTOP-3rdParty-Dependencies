@@ -12,7 +12,7 @@ This library is used for one-click installation of the most commonly used LabVIE
 ## **COPYRIGHT STATEMENT**
 
 >
-> **All Refered Libaries belongs to its own owner, Please notice and follow their LICENSE.**
+> **All Referred Libraries belongs to its own owner, Please notice and follow their LICENSE.**
 >
 
 ## OpenG Toolkit
