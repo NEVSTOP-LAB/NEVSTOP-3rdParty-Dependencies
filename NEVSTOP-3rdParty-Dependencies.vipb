@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-11-09 20:39:48" Modified_Date="2023-11-03 09:51:51" Creator="IECUBE" Comments="" ID="aa561c18d949e1692d0e728db5a96ae2">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-11-09 20:39:48" Modified_Date="2024-01-05 14:25:11" Creator="IECUBE" Comments="" ID="8e9b349a67eed5007b9d24ccf5a949b3">
   <Library_General_Settings>
     <Package_File_Name>NEVSTOP_3rdParty_Dependencies</Package_File_Name>
-    <Library_Version>2023.11.2.7</Library_Version>
+    <Library_Version>2024.1.5.7</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>src</Library_Source_Folder>
     <Library_Output_Folder>vip</Library_Output_Folder>
@@ -21,6 +21,7 @@
       <Additional_External_Dependencies>jki_lib_easyxml &gt;=3.0.0.170</Additional_External_Dependencies>
       <Additional_External_Dependencies>jki_lib_json_serialization &gt;=1.1.10.37</Additional_External_Dependencies>
       <Additional_External_Dependencies>jki_lib_state_machine &gt;=2018.0.7.45</Additional_External_Dependencies>
+      <Additional_External_Dependencies>labview_open_source_lib_data_manipulation &gt;=1.6.0.16</Additional_External_Dependencies>
       <Additional_External_Dependencies>labview_open_source_lib_epoch_datetime &gt;=1.2.0.6</Additional_External_Dependencies>
       <Additional_External_Dependencies>labview_open_source_lib_serializer &gt;=1.2.1.16</Additional_External_Dependencies>
       <Additional_External_Dependencies>labview_open_source_project_lib_serializer_base64 &gt;=1.0.2.4</Additional_External_Dependencies>
@@ -54,10 +55,12 @@
     <VI_Package_Configuration_File>NEVSTOP-3rdParty-Dependencies.vipc</VI_Package_Configuration_File>
     <Description>
       <One_Line_Description_Summary/>
-      <Description>## **COPYRIGHT STATEMENT**
+      <Description>This library is used for one-click installation of the most commonly used LabVIEW libraries in VIPM, which are heavily used by NEVSTOP-Lab. Please note that the copyright of these libraries belongs to their respective owners. Enjoy!
 
-&gt;  
-&gt; **All Refered Libaries belongs to its own owner, Please notice and follow their LICENSE.**
+## **COPYRIGHT STATEMENT**
+
+&gt;
+&gt; **All Referred Libraries belongs to its own owner, Please notice and follow their LICENSE.**
 &gt;
 
 ## OpenG Toolkit
@@ -115,16 +118,19 @@
 
 ## LabVIEW Open Source Project
 
+ - Data Manipulation v1.6.0.16 by LabVIEW Open Source Project
  - OpenSerializer v1.2.1.16 by LabVIEW Open Source Project
  - OpenSerializer.Base64 v1.0.2.4 by LabVIEW Open Source Project
  - OpenSerializer easyXML v1.0.0.1 by LabVIEW Open Source Project
  - OpenSerializer JKI JSON v1.0.0.1 by LabVIEW Open Source Project
- -  Epoch Date &amp; Time v1.2.0.6 by LabVIEW Open Source Project</Description>
+ - Epoch Date &amp; Time v1.2.0.6 by LabVIEW Open Source Project</Description>
       <Copyright/>
       <Packager>NEVSTOP</Packager>
       <URL>https://github.com/NEVSTOP-LAB/NEVSTOP-3rdParty-Dependencies</URL>
-      <Release_Notes>[add] #20 Epoch Date &amp; Time v1.2.0.6 by LabVIEW Open Source Project
-[update] set related control palette width to 6</Release_Notes>
+      <Release_Notes>[update] #22 Update Data Manipulation by LabVIEW Open Source Project to 1.6.0.16
+[update] Show NEVSTOP-3rdParty-Dependencies.mnu in root palette
+[fix] fix typo
+</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -265,6 +271,7 @@
       <close_labview_before_install>false</close_labview_before_install>
       <restart_labview_after_install>false</restart_labview_after_install>
       <skip_mass_compile_after_install>false</skip_mass_compile_after_install>
+      <install_into_global_environment>false</install_into_global_environment>
     </LabVIEW>
     <VI_Docs>
       <Edit_VI_Description>true</Edit_VI_Description>
