@@ -66,6 +66,7 @@
 
 ## LabVIEW Open Source Project
 
+ - Data Manipulation v1.6.0.16 by LabVIEW Open Source Project
  - OpenSerializer >= v1.2.1.16
  - OpenSerializer.Base64 >= v1.0.2.4
  - OpenSerializer easyXML >= v1.0.0.1
