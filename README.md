@@ -5,7 +5,7 @@
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/NEVSTOP-LAB/NEVSTOP-3rdParty-Dependencies)](https://github.com/NEVSTOP-LAB/NEVSTOP-3rdParty-Dependencies/releases)
 [![GitHub all releases](https://img.shields.io/github/downloads/NEVSTOP-LAB/NEVSTOP-3rdParty-Dependencies/total)](https://github.com/NEVSTOP-LAB/NEVSTOP-3rdParty-Dependencies/releases)
 
-This library is used for one-click installation of the most commonly used LabVIEW libraries in VIPM.
+This library is used for one-click installation of the most commonly used LabVIEW libraries in VIPM, which are heavily used by NEVSTOP-Lab. Please note that the copyright of these libraries belongs to their respective owners. Enjoy!
 
 ![palette](./.github/Palette.png)
 

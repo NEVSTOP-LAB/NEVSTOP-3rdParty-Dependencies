@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-11-09 20:39:48" Modified_Date="2024-01-05 12:18:35" Creator="IECUBE" Comments="" ID="535b967716faf47be940fba28a2afa2a">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-11-09 20:39:48" Modified_Date="2024-01-05 14:12:54" Creator="IECUBE" Comments="" ID="ab47f92562b8bbdd8fd5b547cf199660">
   <Library_General_Settings>
     <Package_File_Name>NEVSTOP_3rdParty_Dependencies</Package_File_Name>
     <Library_Version>2024.1.5.7</Library_Version>
@@ -55,7 +55,9 @@
     <VI_Package_Configuration_File>NEVSTOP-3rdParty-Dependencies.vipc</VI_Package_Configuration_File>
     <Description>
       <One_Line_Description_Summary/>
-      <Description>## **COPYRIGHT STATEMENT**
+      <Description>This library is used for one-click installation of the most commonly used LabVIEW libraries in VIPM, which are heavily used by NEVSTOP-Lab. Please note that the copyright of these libraries belongs to their respective owners. Enjoy!
+
+## **COPYRIGHT STATEMENT**
 
 &gt;  
 &gt; **All Refered Libaries belongs to its own owner, Please notice and follow their LICENSE.**
