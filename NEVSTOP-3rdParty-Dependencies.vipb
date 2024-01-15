@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-11-09 20:39:48" Modified_Date="2024-01-05 14:25:11" Creator="IECUBE" Comments="" ID="8e9b349a67eed5007b9d24ccf5a949b3">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-11-09 20:39:48" Modified_Date="2024-01-15 12:33:10" Creator="IECUBE" Comments="" ID="e5de89e7adb3abc7085ea3a2aae95b70">
   <Library_General_Settings>
     <Package_File_Name>NEVSTOP_3rdParty_Dependencies</Package_File_Name>
     <Library_Version>2024.1.5.7</Library_Version>
@@ -27,6 +27,7 @@
       <Additional_External_Dependencies>labview_open_source_project_lib_serializer_base64 &gt;=1.0.2.4</Additional_External_Dependencies>
       <Additional_External_Dependencies>labview_open_source_project_lib_serializer_easyxml &gt;=1.0.0.1</Additional_External_Dependencies>
       <Additional_External_Dependencies>labview_open_source_project_lib_serializer_jki_json &gt;=1.0.0.1</Additional_External_Dependencies>
+      <Additional_External_Dependencies>mgi_lib_menu_building &gt;=1.0.1.4</Additional_External_Dependencies>
       <Additional_External_Dependencies>mgi_lib_mgi_library &gt;=1.2.0.4</Additional_External_Dependencies>
       <Additional_External_Dependencies>ni_lib_amc &gt;=3.3.1.22</Additional_External_Dependencies>
       <Additional_External_Dependencies>ni_lib_ccc &gt;=3.0.3.9</Additional_External_Dependencies>
@@ -76,6 +77,7 @@
 &gt; The MGI Library is a collection of the VIs used most heavily by Moore Good Ideas employees. The Library is free to use and distribute, and is provided as a public service to the LabVIEW Community by Moore Good Ideas. Enjoy!
 
 - MGI Library &gt;= 1.2.0.4
+- MGI Menu Building &gt;= v1.0.1.4
 
 ## JKI
 
@@ -127,10 +129,10 @@
       <Copyright/>
       <Packager>NEVSTOP</Packager>
       <URL>https://github.com/NEVSTOP-LAB/NEVSTOP-3rdParty-Dependencies</URL>
-      <Release_Notes>[update] #22 Update Data Manipulation by LabVIEW Open Source Project to 1.6.0.16
+      <Release_Notes>[add] #24 MGI Menu Building &gt;= v1.0.1.4
+[update] #22 Update Data Manipulation by LabVIEW Open Source Project to 1.6.0.16
 [update] Show NEVSTOP-3rdParty-Dependencies.mnu in root palette
-[fix] fix typo
-</Release_Notes>
+[fix] fix typo</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -271,7 +273,6 @@
       <close_labview_before_install>false</close_labview_before_install>
       <restart_labview_after_install>false</restart_labview_after_install>
       <skip_mass_compile_after_install>false</skip_mass_compile_after_install>
-      <install_into_global_environment>false</install_into_global_environment>
     </LabVIEW>
     <VI_Docs>
       <Edit_VI_Description>true</Edit_VI_Description>
