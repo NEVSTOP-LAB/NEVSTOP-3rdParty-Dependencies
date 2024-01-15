@@ -29,6 +29,7 @@ This library is used for one-click installation of the most commonly used LabVIE
 
 - MGI Library >= 1.2.0.4
 - MGI Class Method Browser >= 1.0.0.20
+- MGI Menu Building >= v1.0.1.4
 
 ## JKI
 

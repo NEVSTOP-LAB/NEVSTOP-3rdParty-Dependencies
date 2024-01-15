@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-11-09 20:39:48" Modified_Date="2024-01-15 12:15:55" Creator="IECUBE" Comments="" ID="b87bae195cf4a2e229f79402caf76300">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-11-09 20:39:48" Modified_Date="2024-01-15 12:18:38" Creator="IECUBE" Comments="" ID="aa6595e34c5d5f3018bdd7bd91d026b1">
   <Library_General_Settings>
     <Package_File_Name>NEVSTOP_3rdParty_Dependencies</Package_File_Name>
     <Library_Version>2024.1.5.7</Library_Version>
@@ -28,6 +28,7 @@
       <Additional_External_Dependencies>labview_open_source_project_lib_serializer_easyxml &gt;=1.0.0.1</Additional_External_Dependencies>
       <Additional_External_Dependencies>labview_open_source_project_lib_serializer_jki_json &gt;=1.0.0.1</Additional_External_Dependencies>
       <Additional_External_Dependencies>mgi_lib_class_method_browser &gt;=1.0.0.20</Additional_External_Dependencies>
+      <Additional_External_Dependencies>mgi_lib_menu_building &gt;=1.0.1.4</Additional_External_Dependencies>
       <Additional_External_Dependencies>mgi_lib_mgi_library &gt;=1.2.0.4</Additional_External_Dependencies>
       <Additional_External_Dependencies>ni_lib_amc &gt;=3.3.1.22</Additional_External_Dependencies>
       <Additional_External_Dependencies>ni_lib_ccc &gt;=3.0.3.9</Additional_External_Dependencies>
@@ -77,6 +78,8 @@
 &gt; The MGI Library is a collection of the VIs used most heavily by Moore Good Ideas employees. The Library is free to use and distribute, and is provided as a public service to the LabVIEW Community by Moore Good Ideas. Enjoy!
 
 - MGI Library &gt;= 1.2.0.4
+- MGI Class Method Browser &gt;= 1.0.0.20
+- MGI Menu Building &gt;= v1.0.1.4
 
 ## JKI
 
@@ -129,6 +132,7 @@
       <Packager>NEVSTOP</Packager>
       <URL>https://github.com/NEVSTOP-LAB/NEVSTOP-3rdParty-Dependencies</URL>
       <Release_Notes>[add] #25 MGI Class Method Browser &gt;= 1.0.0.20
+[add] #24 MGI Menu Building &gt;= v1.0.1.4
 [update] #22 Update Data Manipulation by LabVIEW Open Source Project to 1.6.0.16
 [update] Show NEVSTOP-3rdParty-Dependencies.mnu in root palette
 [fix] fix typo</Release_Notes>
