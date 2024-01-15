@@ -28,7 +28,6 @@ This library is used for one-click installation of the most commonly used LabVIE
 > The MGI Library is a collection of the VIs used most heavily by Moore Good Ideas employees. The Library is free to use and distribute, and is provided as a public service to the LabVIEW Community by Moore Good Ideas. Enjoy!
 
 - MGI Library >= 1.2.0.4
-- MGI Class Method Browser >= 1.0.0.20
 - MGI Menu Building >= v1.0.1.4
 
 ## JKI
