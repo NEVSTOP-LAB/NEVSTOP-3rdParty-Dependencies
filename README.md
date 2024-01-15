@@ -28,6 +28,7 @@ This library is used for one-click installation of the most commonly used LabVIE
 > The MGI Library is a collection of the VIs used most heavily by Moore Good Ideas employees. The Library is free to use and distribute, and is provided as a public service to the LabVIEW Community by Moore Good Ideas. Enjoy!
 
 - MGI Library >= 1.2.0.4
+- MGI Class Method Browser >= 1.0.0.20
 
 ## JKI
 
@@ -40,18 +41,17 @@ This library is used for one-click installation of the most commonly used LabVIE
 > The GPower Toolkit is free software that provides reuse libraries for the LabVIEW programming environment. Download GPower Toolkit and find support information. You can use this download page to access GPower Toolkit and all available editions are available from this download page.
 
   This Package depends on these other packages:
--  GPower Array >= 2016.2.0.27
--  GPower Comparison >= 2016.0.0.4
--  GPower Error & Warning >= 2014.0.0.38
--  GPower Events >= 2012.0.0.7
--  GPower Math >= 2012.1.0.6
--  GPower Numeric >= 2016.2.0.14
--  GPower Overflow >= 2014.0.0.4
--  GPower String >= 2016.1.0.11
--  GPower Timing >= 2017.0.0.26
--  GPower VI Launcher >= 2012.2.0.26
--  GPower VI Register >= 2016.0.0.31
-
+- GPower Array >= 2016.2.0.27
+- GPower Comparison >= 2016.0.0.4
+- GPower Error & Warning >= 2014.0.0.38
+- GPower Events >= 2012.0.0.7
+- GPower Math >= 2012.1.0.6
+- GPower Numeric >= 2016.2.0.14
+- GPower Overflow >= 2014.0.0.4
+- GPower String >= 2016.1.0.11
+- GPower Timing >= 2017.0.0.26
+- GPower VI Launcher >= 2012.2.0.26
+- GPower VI Register >= 2016.0.0.31
 
 ## National Instruments
 
@@ -70,9 +70,9 @@ This library is used for one-click installation of the most commonly used LabVIE
 
 ## LabVIEW Open Source Project
 
- - Data Manipulation v1.6.0.16 by LabVIEW Open Source Project
- - OpenSerializer >= v1.2.1.16
- - OpenSerializer.Base64 >= v1.0.2.4
- - OpenSerializer easyXML >= v1.0.0.1
- - OpenSerializer JKI JSON >= v1.0.0.1
- - Epoch Date & Time >= 1.2.0.6
+- Data Manipulation v1.6.0.16 by LabVIEW Open Source Project
+- OpenSerializer >= v1.2.1.16
+- OpenSerializer.Base64 >= v1.0.2.4
+- OpenSerializer easyXML >= v1.0.0.1
+- OpenSerializer JKI JSON >= v1.0.0.1
+- Epoch Date & Time >= 1.2.0.6
