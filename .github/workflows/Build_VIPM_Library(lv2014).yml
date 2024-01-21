@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: Build_VIPM_Library
+name: Build_VIPM_Library_lv2014
 
 # Controls when the workflow will run
 on:
@@ -40,7 +40,7 @@ jobs:
         uses: NEVSTOP-LAB/vipm-BuildViPackage@main
         with:
           LabVIEW_Version: 2014
-          VipbPath: ${{ github.workspace }}/NEVSTOP-3rdParty-Dependencies-lv2014+.vipb
+          VipbPath: ${{ github.workspace }}\NEVSTOP-3rdParty-Dependencies-lv2014+.vipb
 
       - name: Upload a Build Artifact
         uses: actions/upload-artifact@v3.0.0
