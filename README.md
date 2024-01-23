@@ -36,11 +36,14 @@ This library is used for one-click installation of the most commonly used LabVIE
 - EasyXML Toolkit for LabVIEW  >= v3.0.0.170
 - JKI JSON >= v1.1.10.37
 
+## LAVA
+
+- Robust CSV >= v1.2.0.1 by LAVA
+
 ## GPower
 
 > The GPower Toolkit is free software that provides reuse libraries for the LabVIEW programming environment. Download GPower Toolkit and find support information. You can use this download page to access GPower Toolkit and all available editions are available from this download page.
 
-  This Package depends on these other packages:
 - GPower Array >= 2016.2.0.27
 - GPower Comparison >= 2016.0.0.4
 - GPower Error & Warning >= 2014.0.0.38
