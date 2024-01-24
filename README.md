@@ -80,3 +80,8 @@ This library is used for one-click installation of the most commonly used LabVIE
 - OpenSerializer easyXML >= v1.0.0.1
 - OpenSerializer JKI JSON >= v1.0.0.1
 - Epoch Date & Time >= 1.2.0.6
+
+## Others
+
+- ZeroMQ Socket Library v3.6.2.112 by Martijn Jasperse
+- SQLite Library v1.15.0.114 by JDP Science

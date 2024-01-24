@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-11-09 20:39:48" Modified_Date="2024-01-23 23:13:21" Creator="IECUBE" Comments="" ID="46e8797ce88d0991e758bbbaea3eedf5">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-11-09 20:39:48" Modified_Date="2024-01-24 17:14:44" Creator="IECUBE" Comments="" ID="e9b3a4a44f7862370f3442a2a0141877">
   <Library_General_Settings>
     <Package_File_Name>NEVSTOP_3rdParty_Dependencies</Package_File_Name>
     <Library_Version>2024.1.5.7</Library_Version>
@@ -17,10 +17,12 @@
   </Library_General_Settings>
   <Advanced_Settings>
     <Package_Dependencies>
+      <Additional_External_Dependencies>drjdpowell_lib_sqlite_labview &gt;=1.15.0.114</Additional_External_Dependencies>
       <Additional_External_Dependencies>gpower_lib_all &gt;=2017.0.0.11</Additional_External_Dependencies>
       <Additional_External_Dependencies>jki_lib_easyxml &gt;=3.0.0.170</Additional_External_Dependencies>
       <Additional_External_Dependencies>jki_lib_json_serialization &gt;=1.1.10.37</Additional_External_Dependencies>
       <Additional_External_Dependencies>jki_lib_state_machine &gt;=2018.0.7.45</Additional_External_Dependencies>
+      <Additional_External_Dependencies>labview-zmq &gt;=3.6.2.112</Additional_External_Dependencies>
       <Additional_External_Dependencies>labview_open_source_lib_data_manipulation &gt;=1.6.0.16</Additional_External_Dependencies>
       <Additional_External_Dependencies>labview_open_source_lib_epoch_datetime &gt;=1.2.0.6</Additional_External_Dependencies>
       <Additional_External_Dependencies>labview_open_source_lib_serializer &gt;=1.2.1.16</Additional_External_Dependencies>
@@ -132,6 +134,8 @@
       <Packager>NEVSTOP</Packager>
       <URL>https://github.com/NEVSTOP-LAB/NEVSTOP-3rdParty-Dependencies</URL>
       <Release_Notes>[critical] Upgrade Minimum version to lv2017
+[add] ZeroMQ Socket Library v3.6.2.112 by Martijn Jasperse
+[add] SQLite Library v1.15.0.114 by JDP Science
 [add] Robust CSV &gt;= v1.2.0.1 by LAVA 
 [add] #24 MGI Menu Building &gt;= v1.0.1.4 by MGI
 [update] #22 Update Data Manipulation by LabVIEW Open Source Project to 1.6.0.16
