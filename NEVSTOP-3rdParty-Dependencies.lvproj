@@ -13,6 +13,7 @@
 		<Item Name="src" Type="Folder" URL="../src">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="NEVSTOP-3rdParty-Dependencies-lv2014+.vipb" Type="Document" URL="../NEVSTOP-3rdParty-Dependencies-lv2014+.vipb"/>
 		<Item Name="NEVSTOP-3rdParty-Dependencies.vipb" Type="Document" URL="../NEVSTOP-3rdParty-Dependencies.vipb"/>
 		<Item Name="README.md" Type="Document" URL="../README.md"/>
 		<Item Name="Dependencies" Type="Dependencies">
