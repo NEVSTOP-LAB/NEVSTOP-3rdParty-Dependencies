@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-11-09 20:39:48" Modified_Date="2024-01-25 10:07:03" Creator="IECUBE" Comments="" ID="55a66388d3fcdc79c6048f17e6efebaf">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-11-09 20:39:48" Modified_Date="2024-01-25 17:14:09" Creator="IECUBE" Comments="" ID="906f329b196416244a16a2eb4f5ab6a9">
   <Library_General_Settings>
     <Package_File_Name>NEVSTOP_3rdParty_Dependencies</Package_File_Name>
     <Library_Version>2024.1.5.7</Library_Version>
@@ -33,6 +33,7 @@
       <Additional_External_Dependencies>lava_lib_code_capture_tool &gt;=3.2.3</Additional_External_Dependencies>
       <Additional_External_Dependencies>lava_lib_robust_csv &gt;=1.2.0.1</Additional_External_Dependencies>
       <Additional_External_Dependencies>lava_lib_ui_tools &gt;=1.4.1.74</Additional_External_Dependencies>
+      <Additional_External_Dependencies>lv_muparser &gt;=3.0.0.3</Additional_External_Dependencies>
       <Additional_External_Dependencies>mgi_lib_menu_building &gt;=1.0.1.4</Additional_External_Dependencies>
       <Additional_External_Dependencies>mgi_lib_mgi_library &gt;=1.2.0.4</Additional_External_Dependencies>
       <Additional_External_Dependencies>ni_lib_amc &gt;=3.3.1.22</Additional_External_Dependencies>
@@ -98,6 +99,7 @@
 - Robust CSV &gt;= v1.2.0.1 by LAVA
 - UI Tools v1.4.1.74 by LAVA
 - Code Capture Tool v3.2.3-51 by LAVA
+- muParser Expression Parser API v3.0.0.3 by LAVA(2017+ Only)
 
 ## GPower
 
@@ -151,6 +153,7 @@
       <Release_Notes>[critical] Upgrade Minimum version to lv2017
 [add] ZeroMQ Socket Library v3.6.2.112 by Martijn Jasperse
 [add] SQLite Library v1.15.0.114 by JDP Science
+[add] muParser Expression Parser API v3.0.0.3 by LAVA
 [add] Robust CSV &gt;= v1.2.0.1 by LAVA
 [add] UI Tools v1.4.1.74 by LAVA
 [add] Code Capture Tool v3.2.3-51 by LAVA

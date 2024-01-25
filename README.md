@@ -33,15 +33,25 @@ This library is used for one-click installation of the most commonly used LabVIE
 
 ## JKI
 
+> At JKI we develop software, architect solutions, and design user interfaces to automate, test, and control systems using LabVIEW and Python
+> <br> 🔗: <https://www.jki.net/>
+
 - JKI State Machine >= 2018.0.7.45
 - EasyXML Toolkit for LabVIEW  >= v3.0.0.170
 - JKI JSON >= v1.1.10.37
 
 ## LAVA
 
+> 🔗: <https://lavag.org/>
+
 - Robust CSV >= v1.2.0.1 by LAVA
 - UI Tools v1.4.1.74 by LAVA
 - Code Capture Tool v3.2.3-51 by LAVA
+- muParser Expression Parser API v3.0.0.3 by LAVA `(NOT Include in 2014 version)`
+
+> [!NOTE]
+> `muParser Expression Parser API` needs LabVIEW 2015 at least. So it's not included in `NEVSTOP-3rdParty-Dependencies-lv2014+`
+>
 
 ## GPower
 
@@ -75,6 +85,9 @@ This library is used for one-click installation of the most commonly used LabVIE
 - NI RT Management >= 1.1.1.41
 
 ## LabVIEW Open Source Project
+
+> Graphical Open Source Project for LabVIEW
+> <br> 🔗: <https://github.com/LabVIEW-Open-Source>
 
 - Data Manipulation v1.6.0.16 by LabVIEW Open Source Project
 - OpenSerializer >= v1.2.1.16
