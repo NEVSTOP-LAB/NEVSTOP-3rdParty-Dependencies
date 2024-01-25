@@ -41,6 +41,7 @@ This library is used for one-click installation of the most commonly used LabVIE
 
 - Robust CSV >= v1.2.0.1 by LAVA
 - UI Tools v1.4.1.74 by LAVA
+- Code Capture Tool v3.2.3-51 by LAVA
 
 ## GPower
 
