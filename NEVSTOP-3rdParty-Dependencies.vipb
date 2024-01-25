@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-11-09 20:39:48" Modified_Date="2024-01-24 17:14:44" Creator="IECUBE" Comments="" ID="e9b3a4a44f7862370f3442a2a0141877">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-11-09 20:39:48" Modified_Date="2024-01-25 10:07:03" Creator="IECUBE" Comments="" ID="55a66388d3fcdc79c6048f17e6efebaf">
   <Library_General_Settings>
     <Package_File_Name>NEVSTOP_3rdParty_Dependencies</Package_File_Name>
     <Library_Version>2024.1.5.7</Library_Version>
@@ -17,6 +17,7 @@
   </Library_General_Settings>
   <Advanced_Settings>
     <Package_Dependencies>
+      <Additional_External_Dependencies>drjdpowell_lib_cyclic_table_probes &gt;=1.4.10.31</Additional_External_Dependencies>
       <Additional_External_Dependencies>drjdpowell_lib_sqlite_labview &gt;=1.15.0.114</Additional_External_Dependencies>
       <Additional_External_Dependencies>gpower_lib_all &gt;=2017.0.0.11</Additional_External_Dependencies>
       <Additional_External_Dependencies>jki_lib_easyxml &gt;=3.0.0.170</Additional_External_Dependencies>
@@ -29,7 +30,9 @@
       <Additional_External_Dependencies>labview_open_source_project_lib_serializer_base64 &gt;=1.0.2.4</Additional_External_Dependencies>
       <Additional_External_Dependencies>labview_open_source_project_lib_serializer_easyxml &gt;=1.0.0.1</Additional_External_Dependencies>
       <Additional_External_Dependencies>labview_open_source_project_lib_serializer_jki_json &gt;=1.0.0.1</Additional_External_Dependencies>
+      <Additional_External_Dependencies>lava_lib_code_capture_tool &gt;=3.2.3</Additional_External_Dependencies>
       <Additional_External_Dependencies>lava_lib_robust_csv &gt;=1.2.0.1</Additional_External_Dependencies>
+      <Additional_External_Dependencies>lava_lib_ui_tools &gt;=1.4.1.74</Additional_External_Dependencies>
       <Additional_External_Dependencies>mgi_lib_menu_building &gt;=1.0.1.4</Additional_External_Dependencies>
       <Additional_External_Dependencies>mgi_lib_mgi_library &gt;=1.2.0.4</Additional_External_Dependencies>
       <Additional_External_Dependencies>ni_lib_amc &gt;=3.3.1.22</Additional_External_Dependencies>
@@ -64,6 +67,7 @@
 
 ## **COPYRIGHT STATEMENT**
 
+&gt;[!IMPORTANT]
 &gt;
 &gt; **All Referred Libraries belongs to its own owner, Please notice and follow their LICENSE.**
 &gt;
@@ -86,26 +90,30 @@
 ## JKI
 
 - JKI State Machine &gt;= 2018.0.7.45
-- EasyXML Toolkit for LabVIEW v3.0.0.170 by JKI
-- JKI JSON v1.1.10.37 by JKI
+- EasyXML Toolkit for LabVIEW  &gt;= v3.0.0.170
+- JKI JSON &gt;= v1.1.10.37
+
+## LAVA
+
+- Robust CSV &gt;= v1.2.0.1 by LAVA
+- UI Tools v1.4.1.74 by LAVA
+- Code Capture Tool v3.2.3-51 by LAVA
 
 ## GPower
 
 &gt; The GPower Toolkit is free software that provides reuse libraries for the LabVIEW programming environment. Download GPower Toolkit and find support information. You can use this download page to access GPower Toolkit and all available editions are available from this download page.
 
-  This Package depends on these other packages:
--  GPower Array &gt;= 2016.2.0.27
--  GPower Comparison &gt;= 2016.0.0.4
--  GPower Error &amp; Warning &gt;= 2014.0.0.38
--  GPower Events &gt;= 2012.0.0.7
--  GPower Math &gt;= 2012.1.0.6
--  GPower Numeric &gt;= 2016.2.0.14
--  GPower Overflow &gt;= 2014.0.0.4
--  GPower String &gt;= 2016.1.0.11
--  GPower Timing &gt;= 2017.0.0.26
--  GPower VI Launcher &gt;= 2012.2.0.26
--  GPower VI Register &gt;= 2016.0.0.31
-
+- GPower Array &gt;= 2016.2.0.27
+- GPower Comparison &gt;= 2016.0.0.4
+- GPower Error &amp; Warning &gt;= 2014.0.0.38
+- GPower Events &gt;= 2012.0.0.7
+- GPower Math &gt;= 2012.1.0.6
+- GPower Numeric &gt;= 2016.2.0.14
+- GPower Overflow &gt;= 2014.0.0.4
+- GPower String &gt;= 2016.1.0.11
+- GPower Timing &gt;= 2017.0.0.26
+- GPower VI Launcher &gt;= 2012.2.0.26
+- GPower VI Register &gt;= 2016.0.0.31
 
 ## National Instruments
 
@@ -124,20 +132,30 @@
 
 ## LabVIEW Open Source Project
 
- - Data Manipulation v1.6.0.16 by LabVIEW Open Source Project
- - OpenSerializer v1.2.1.16 by LabVIEW Open Source Project
- - OpenSerializer.Base64 v1.0.2.4 by LabVIEW Open Source Project
- - OpenSerializer easyXML v1.0.0.1 by LabVIEW Open Source Project
- - OpenSerializer JKI JSON v1.0.0.1 by LabVIEW Open Source Project
- - Epoch Date &amp; Time v1.2.0.6 by LabVIEW Open Source Project</Description>
+- Data Manipulation v1.6.0.16 by LabVIEW Open Source Project
+- OpenSerializer &gt;= v1.2.1.16
+- OpenSerializer.Base64 &gt;= v1.0.2.4
+- OpenSerializer easyXML &gt;= v1.0.0.1
+- OpenSerializer JKI JSON &gt;= v1.0.0.1
+- Epoch Date &amp; Time &gt;= 1.2.0.6
+
+## Others
+
+- ZeroMQ Socket Library v3.6.2.112 by Martijn Jasperse
+- SQLite Library v1.15.0.114 by JDP Science
+- Cyclic Table Probes v1.4.10.31 by drjdpowell
+</Description>
       <Copyright/>
       <Packager>NEVSTOP</Packager>
       <URL>https://github.com/NEVSTOP-LAB/NEVSTOP-3rdParty-Dependencies</URL>
       <Release_Notes>[critical] Upgrade Minimum version to lv2017
 [add] ZeroMQ Socket Library v3.6.2.112 by Martijn Jasperse
 [add] SQLite Library v1.15.0.114 by JDP Science
-[add] Robust CSV &gt;= v1.2.0.1 by LAVA 
+[add] Robust CSV &gt;= v1.2.0.1 by LAVA
+[add] UI Tools v1.4.1.74 by LAVA
+[add] Code Capture Tool v3.2.3-51 by LAVA
 [add] #24 MGI Menu Building &gt;= v1.0.1.4 by MGI
+[add] Cyclic Table Probes v1.4.10.31 by drjdpowell
 [update] #22 Update Data Manipulation by LabVIEW Open Source Project to 1.6.0.16
 [update] Show Nevstop Toolkits.mnu in root palette
 [update] Show NEVSTOP-3rdParty-Dependencies.mnu in root palette
@@ -282,7 +300,6 @@
       <close_labview_before_install>false</close_labview_before_install>
       <restart_labview_after_install>false</restart_labview_after_install>
       <skip_mass_compile_after_install>false</skip_mass_compile_after_install>
-      <install_into_global_environment>false</install_into_global_environment>
     </LabVIEW>
     <VI_Docs>
       <Edit_VI_Description>true</Edit_VI_Description>

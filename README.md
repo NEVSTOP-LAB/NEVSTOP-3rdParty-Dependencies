@@ -40,6 +40,8 @@ This library is used for one-click installation of the most commonly used LabVIE
 ## LAVA
 
 - Robust CSV >= v1.2.0.1 by LAVA
+- UI Tools v1.4.1.74 by LAVA
+- Code Capture Tool v3.2.3-51 by LAVA
 
 ## GPower
 
@@ -85,3 +87,4 @@ This library is used for one-click installation of the most commonly used LabVIE
 
 - ZeroMQ Socket Library v3.6.2.112 by Martijn Jasperse
 - SQLite Library v1.15.0.114 by JDP Science
+- Cyclic Table Probes v1.4.10.31 by drjdpowell
