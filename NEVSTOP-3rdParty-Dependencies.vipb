@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-11-09 20:39:48" Modified_Date="2024-01-26 17:18:12" Creator="IECUBE" Comments="" ID="98677ad70576004d2217ae6d6c8c6147">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-11-09 20:39:48" Modified_Date="2024-06-02 18:08:28" Creator="IECUBE" Comments="" ID="5b9e1927abef2abe030bce396b412fac">
   <Library_General_Settings>
     <Package_File_Name>NEVSTOP_3rdParty_Dependencies</Package_File_Name>
     <Library_Version>2024.1.26.7</Library_Version>
@@ -17,6 +17,7 @@
   </Library_General_Settings>
   <Advanced_Settings>
     <Package_Dependencies>
+      <Additional_External_Dependencies>OpenGArray Library =4.1.1.14</Additional_External_Dependencies>
       <Additional_External_Dependencies>drjdpowell_lib_cyclic_table_probes &gt;=1.4.10.31</Additional_External_Dependencies>
       <Additional_External_Dependencies>drjdpowell_lib_sqlite_labview &gt;=1.15.0.114</Additional_External_Dependencies>
       <Additional_External_Dependencies>gpower_lib_all &gt;=2017.0.0.11</Additional_External_Dependencies>
@@ -48,9 +49,22 @@
       <Additional_External_Dependencies>ni_lib_stm &gt;=3.1.0.9</Additional_External_Dependencies>
       <Additional_External_Dependencies>ni_lib_string &gt;=2.0.0.5</Additional_External_Dependencies>
       <Additional_External_Dependencies>nise_syslog &gt;=1.3.3.27</Additional_External_Dependencies>
-      <Additional_External_Dependencies>oglib_lvdata &gt;=5.0.0.27</Additional_External_Dependencies>
-      <Additional_External_Dependencies>oglib_string &gt;=5.0.0.25</Additional_External_Dependencies>
-      <Additional_External_Dependencies>openg.org_lib_openg_toolkit &gt;=4.0.1.9</Additional_External_Dependencies>
+      <Additional_External_Dependencies>oglib_appcontrol =4.1.0.7</Additional_External_Dependencies>
+      <Additional_External_Dependencies>oglib_buttons =4.0.0.7</Additional_External_Dependencies>
+      <Additional_External_Dependencies>oglib_comparison &gt;=4.0.0.3</Additional_External_Dependencies>
+      <Additional_External_Dependencies>oglib_dictionary =4.0.0.4</Additional_External_Dependencies>
+      <Additional_External_Dependencies>oglib_error =4.2.0.23</Additional_External_Dependencies>
+      <Additional_External_Dependencies>oglib_file =4.0.1.22</Additional_External_Dependencies>
+      <Additional_External_Dependencies>oglib_largefile =4.0.0.3</Additional_External_Dependencies>
+      <Additional_External_Dependencies>oglib_lvdata =5.0.0.27</Additional_External_Dependencies>
+      <Additional_External_Dependencies>oglib_md5 =4.1.1.10</Additional_External_Dependencies>
+      <Additional_External_Dependencies>oglib_msgqueue =4.0.0.15</Additional_External_Dependencies>
+      <Additional_External_Dependencies>oglib_numeric =4.1.0.8</Additional_External_Dependencies>
+      <Additional_External_Dependencies>oglib_picture =4.0.0.13</Additional_External_Dependencies>
+      <Additional_External_Dependencies>oglib_portio =4.0.0</Additional_External_Dependencies>
+      <Additional_External_Dependencies>oglib_string =5.0.0.25</Additional_External_Dependencies>
+      <Additional_External_Dependencies>oglib_time =4.0.1.3</Additional_External_Dependencies>
+      <Additional_External_Dependencies>oglib_variantconfig =4.0.0.5</Additional_External_Dependencies>
       <Package_Conflicts>nevstop_3rdparty_dependencies_lv2014+ &gt;=2024.1.21.224100</Package_Conflicts>
     </Package_Dependencies>
     <Custom_Action_VIs>
@@ -303,7 +317,6 @@
       <close_labview_before_install>false</close_labview_before_install>
       <restart_labview_after_install>false</restart_labview_after_install>
       <skip_mass_compile_after_install>false</skip_mass_compile_after_install>
-      <install_into_global_environment>false</install_into_global_environment>
     </LabVIEW>
     <VI_Docs>
       <Edit_VI_Description>true</Edit_VI_Description>
