@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-11-09 20:39:48" Modified_Date="2025-09-27 21:14:55" Creator="IECUBE" Comments="" ID="bc028f69174f291ea323e3d44b725e2e">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-11-09 20:39:48" Modified_Date="2025-09-27 21:22:01" Creator="IECUBE" Comments="" ID="0d2c531bb437afe6810994e02d7d63e4">
   <Library_General_Settings>
     <Package_File_Name>NEVSTOP_3rdParty_Dependencies</Package_File_Name>
     <Library_Version>2024.9.0.13</Library_Version>
@@ -17,37 +17,37 @@
   </Library_General_Settings>
   <Advanced_Settings>
     <Package_Dependencies>
-      <Additional_External_Dependencies>drjdpowell_lib_cyclic_table_probes &gt;=1.4.10.31</Additional_External_Dependencies>
-      <Additional_External_Dependencies>drjdpowell_lib_sqlite_labview &gt;=1.15.0.114</Additional_External_Dependencies>
+      <Additional_External_Dependencies>drjdpowell_lib_cyclic_table_probes =1.5.0.35</Additional_External_Dependencies>
+      <Additional_External_Dependencies>drjdpowell_lib_sqlite_labview =1.16.0.115</Additional_External_Dependencies>
       <Additional_External_Dependencies>gpower_lib_all =2017.0.0.11</Additional_External_Dependencies>
-      <Additional_External_Dependencies>jki_lib_easyxml &gt;=3.0.0.170</Additional_External_Dependencies>
-      <Additional_External_Dependencies>jki_lib_json_serialization &gt;=1.1.10.37</Additional_External_Dependencies>
-      <Additional_External_Dependencies>jki_lib_state_machine &gt;=2018.0.7.45</Additional_External_Dependencies>
-      <Additional_External_Dependencies>labview-zmq &gt;=3.6.2.112</Additional_External_Dependencies>
-      <Additional_External_Dependencies>labview_open_source_lib_data_manipulation &gt;=1.6.0.16</Additional_External_Dependencies>
-      <Additional_External_Dependencies>labview_open_source_lib_epoch_datetime &gt;=1.2.0.6</Additional_External_Dependencies>
-      <Additional_External_Dependencies>labview_open_source_lib_serializer &gt;=1.2.1.16</Additional_External_Dependencies>
-      <Additional_External_Dependencies>labview_open_source_project_lib_serializer_base64 &gt;=1.0.2.4</Additional_External_Dependencies>
-      <Additional_External_Dependencies>labview_open_source_project_lib_serializer_easyxml &gt;=1.0.0.1</Additional_External_Dependencies>
-      <Additional_External_Dependencies>labview_open_source_project_lib_serializer_jki_json &gt;=1.0.0.1</Additional_External_Dependencies>
-      <Additional_External_Dependencies>lava_lib_code_capture_tool &gt;=3.2.3</Additional_External_Dependencies>
-      <Additional_External_Dependencies>lava_lib_robust_csv &gt;=1.2.0.1</Additional_External_Dependencies>
-      <Additional_External_Dependencies>lava_lib_ui_tools &gt;=1.4.1.74</Additional_External_Dependencies>
-      <Additional_External_Dependencies>lv_muparser &gt;=3.0.0.3</Additional_External_Dependencies>
-      <Additional_External_Dependencies>mgi_lib_menu_building &gt;=1.0.1.4</Additional_External_Dependencies>
-      <Additional_External_Dependencies>mgi_lib_mgi_library &gt;=1.2.0.4</Additional_External_Dependencies>
-      <Additional_External_Dependencies>ni_lib_amc &gt;=3.3.1.22</Additional_External_Dependencies>
-      <Additional_External_Dependencies>ni_lib_ccc &gt;=3.0.3.9</Additional_External_Dependencies>
-      <Additional_External_Dependencies>ni_lib_cvt &gt;=3.3.0.13</Additional_External_Dependencies>
-      <Additional_External_Dependencies>ni_lib_ell &gt;=1.0.0.9</Additional_External_Dependencies>
-      <Additional_External_Dependencies>ni_lib_ni_linux_rt_errno &gt;=1.1.2.9</Additional_External_Dependencies>
-      <Additional_External_Dependencies>ni_lib_ni_linux_rt_ipc &gt;=1.5.1.19</Additional_External_Dependencies>
-      <Additional_External_Dependencies>ni_lib_ni_linux_rt_utilities &gt;=1.1.1.9</Additional_External_Dependencies>
-      <Additional_External_Dependencies>ni_lib_rt_management &gt;=1.1.1.41</Additional_External_Dependencies>
-      <Additional_External_Dependencies>ni_lib_software_watchdog &gt;=1.0.0.24</Additional_External_Dependencies>
-      <Additional_External_Dependencies>ni_lib_stm &gt;=3.1.0.9</Additional_External_Dependencies>
-      <Additional_External_Dependencies>ni_lib_string &gt;=2.0.0.5</Additional_External_Dependencies>
-      <Additional_External_Dependencies>nise_syslog &gt;=1.3.3.27</Additional_External_Dependencies>
+      <Additional_External_Dependencies>jki_lib_easyxml =3.0.0.170</Additional_External_Dependencies>
+      <Additional_External_Dependencies>jki_lib_json_serialization =1.1.10.37</Additional_External_Dependencies>
+      <Additional_External_Dependencies>jki_lib_state_machine =2018.0.7.45</Additional_External_Dependencies>
+      <Additional_External_Dependencies>labview-zmq =3.6.2.112</Additional_External_Dependencies>
+      <Additional_External_Dependencies>labview_open_source_lib_data_manipulation =1.6.0.16</Additional_External_Dependencies>
+      <Additional_External_Dependencies>labview_open_source_lib_epoch_datetime =1.2.0.6</Additional_External_Dependencies>
+      <Additional_External_Dependencies>labview_open_source_lib_serializer =1.2.1.16</Additional_External_Dependencies>
+      <Additional_External_Dependencies>labview_open_source_project_lib_serializer_base64 =1.0.2.4</Additional_External_Dependencies>
+      <Additional_External_Dependencies>labview_open_source_project_lib_serializer_easyxml =1.0.0.1</Additional_External_Dependencies>
+      <Additional_External_Dependencies>labview_open_source_project_lib_serializer_jki_json =1.0.0.1</Additional_External_Dependencies>
+      <Additional_External_Dependencies>lava_lib_code_capture_tool =3.2.3</Additional_External_Dependencies>
+      <Additional_External_Dependencies>lava_lib_robust_csv =1.2.0.1</Additional_External_Dependencies>
+      <Additional_External_Dependencies>lava_lib_ui_tools =1.4.1.74</Additional_External_Dependencies>
+      <Additional_External_Dependencies>lv_muparser =3.1.2.1</Additional_External_Dependencies>
+      <Additional_External_Dependencies>mgi_lib_menu_building =1.0.1.4</Additional_External_Dependencies>
+      <Additional_External_Dependencies>mgi_lib_mgi_library =1.2.0.4</Additional_External_Dependencies>
+      <Additional_External_Dependencies>ni_lib_amc =3.3.1.22</Additional_External_Dependencies>
+      <Additional_External_Dependencies>ni_lib_ccc =3.0.3.9</Additional_External_Dependencies>
+      <Additional_External_Dependencies>ni_lib_cvt =3.3.0.13</Additional_External_Dependencies>
+      <Additional_External_Dependencies>ni_lib_ell =1.0.0.9</Additional_External_Dependencies>
+      <Additional_External_Dependencies>ni_lib_ni_linux_rt_errno =1.1.2.9</Additional_External_Dependencies>
+      <Additional_External_Dependencies>ni_lib_ni_linux_rt_ipc =1.5.1.19</Additional_External_Dependencies>
+      <Additional_External_Dependencies>ni_lib_ni_linux_rt_utilities =1.1.1.9</Additional_External_Dependencies>
+      <Additional_External_Dependencies>ni_lib_rt_management =1.1.1.41</Additional_External_Dependencies>
+      <Additional_External_Dependencies>ni_lib_software_watchdog =1.0.0.24</Additional_External_Dependencies>
+      <Additional_External_Dependencies>ni_lib_stm =3.1.0.9</Additional_External_Dependencies>
+      <Additional_External_Dependencies>ni_lib_string =2.0.0.5</Additional_External_Dependencies>
+      <Additional_External_Dependencies>nise_syslog =1.3.3.27</Additional_External_Dependencies>
       <Additional_External_Dependencies>oglib_appcontrol =4.1.0.7</Additional_External_Dependencies>
       <Additional_External_Dependencies>oglib_array =4.1.1.14</Additional_External_Dependencies>
       <Additional_External_Dependencies>oglib_boolean =4.0.0.7</Additional_External_Dependencies>
