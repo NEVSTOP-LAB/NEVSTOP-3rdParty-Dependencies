@@ -87,6 +87,7 @@ This library is used for one-click installation of the most commonly used LabVIE
 - NI Linux RT Inter-Process Communication = 1.5.1.19
 - NI Linux RT Utilities = 1.1.1.9
 - NI RT Management = 1.1.1.41
+- UIM = 1.10.0.140
 
 ## LabVIEW Open Source Project
 
