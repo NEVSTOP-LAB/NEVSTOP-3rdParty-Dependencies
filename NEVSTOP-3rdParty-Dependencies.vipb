@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-11-09 20:39:48" Modified_Date="2024-06-10 21:56:17" Creator="IECUBE" Comments="" ID="2de5d5a5ed45e7174322fc8fc4f22d52">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-11-09 20:39:48" Modified_Date="2025-09-27 21:14:55" Creator="IECUBE" Comments="" ID="bc028f69174f291ea323e3d44b725e2e">
   <Library_General_Settings>
     <Package_File_Name>NEVSTOP_3rdParty_Dependencies</Package_File_Name>
-    <Library_Version>2024.6.10.13</Library_Version>
+    <Library_Version>2024.9.0.13</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>src</Library_Source_Folder>
     <Library_Output_Folder>vip</Library_Output_Folder>
@@ -19,7 +19,7 @@
     <Package_Dependencies>
       <Additional_External_Dependencies>drjdpowell_lib_cyclic_table_probes &gt;=1.4.10.31</Additional_External_Dependencies>
       <Additional_External_Dependencies>drjdpowell_lib_sqlite_labview &gt;=1.15.0.114</Additional_External_Dependencies>
-      <Additional_External_Dependencies>gpower_lib_all &gt;=2017.0.0.11</Additional_External_Dependencies>
+      <Additional_External_Dependencies>gpower_lib_all =2017.0.0.11</Additional_External_Dependencies>
       <Additional_External_Dependencies>jki_lib_easyxml &gt;=3.0.0.170</Additional_External_Dependencies>
       <Additional_External_Dependencies>jki_lib_json_serialization &gt;=1.1.10.37</Additional_External_Dependencies>
       <Additional_External_Dependencies>jki_lib_state_machine &gt;=2018.0.7.45</Additional_External_Dependencies>
@@ -52,7 +52,6 @@
       <Additional_External_Dependencies>oglib_array =4.1.1.14</Additional_External_Dependencies>
       <Additional_External_Dependencies>oglib_boolean =4.0.0.7</Additional_External_Dependencies>
       <Additional_External_Dependencies>oglib_buttons =4.0.0.7</Additional_External_Dependencies>
-      <Additional_External_Dependencies>oglib_comparison =4.0.0.3</Additional_External_Dependencies>
       <Additional_External_Dependencies>oglib_dictionary =4.0.0.4</Additional_External_Dependencies>
       <Additional_External_Dependencies>oglib_error =4.2.0.23</Additional_External_Dependencies>
       <Additional_External_Dependencies>oglib_file =4.0.1.22</Additional_External_Dependencies>
@@ -166,7 +165,8 @@
       <Copyright/>
       <Packager>NEVSTOP</Packager>
       <URL>https://github.com/NEVSTOP-LAB/NEVSTOP-3rdParty-Dependencies</URL>
-      <Release_Notes>[fix] Limit all OpenG version to 5.x or 4.x
+      <Release_Notes>[REMOVE] OpenG Compression Library : **This library could not be installed silently.**
+[fix] Limit all OpenG version to 5.x or 4.x
 [fix] #34 missing libraries</Release_Notes>
     </Description>
     <Destinations>
@@ -308,7 +308,6 @@
       <close_labview_before_install>false</close_labview_before_install>
       <restart_labview_after_install>false</restart_labview_after_install>
       <skip_mass_compile_after_install>false</skip_mass_compile_after_install>
-      <install_into_global_environment>false</install_into_global_environment>
     </LabVIEW>
     <VI_Docs>
       <Edit_VI_Description>true</Edit_VI_Description>

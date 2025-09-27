@@ -25,6 +25,7 @@ This library is used for one-click installation of the most commonly used LabVIE
 - OpenG Toolkit >= 4.0.1.9
 - OpenG Variant Data Library >= 5.0.0.27
 - OpenG String Library >= 5.0.0.25
+- [REMOVE] OpenG Compression Library : **This library could not be installed silently.**
 
 ## MGI Library
 
@@ -59,17 +60,17 @@ This library is used for one-click installation of the most commonly used LabVIE
 
 > The GPower Toolkit is free software that provides reuse libraries for the LabVIEW programming environment. Download GPower Toolkit and find support information. You can use this download page to access GPower Toolkit and all available editions are available from this download page.
 
-- GPower Array >= 2016.2.0.27
-- GPower Comparison >= 2016.0.0.4
-- GPower Error & Warning >= 2014.0.0.38
-- GPower Events >= 2012.0.0.7
-- GPower Math >= 2012.1.0.6
-- GPower Numeric >= 2016.2.0.14
-- GPower Overflow >= 2014.0.0.4
-- GPower String >= 2016.1.0.11
-- GPower Timing >= 2017.0.0.26
-- GPower VI Launcher >= 2012.2.0.26
-- GPower VI Register >= 2016.0.0.31
+- GPower Array == 2016.2.0.27
+- GPower Comparison == 2016.0.0.4
+- GPower Error & Warning == 2014.0.0.38
+- GPower Events == 2012.0.0.7
+- GPower Math == 2012.1.0.6
+- GPower Numeric == 2016.2.0.14
+- GPower Overflow == 2014.0.0.4
+- GPower String == 2016.1.0.11
+- GPower Timing == 2017.0.0.26
+- GPower VI Launcher == 2012.2.0.26
+- GPower VI Register == 2016.0.0.31
 
 ## National Instruments
 
