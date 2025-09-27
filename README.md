@@ -106,3 +106,4 @@ This library is used for one-click installation of the most commonly used LabVIE
 - ZeroMQ Socket Library = 3.6.2.112 by Martijn Jasperse
 - SQLite Library = 1.15.0.114 by JDP Science
 - Cyclic Table Probes = 1.4.10.31 by drjdpowell
+- Advanced Plotting Toolkit = 1.1.0.136 by Heliosphere Research LLC

@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-11-09 20:39:48" Modified_Date="2025-09-27 22:33:50" Creator="IECUBE" Comments="" ID="c08224a09c27d1f49248ed93649ff69d">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-11-09 20:39:48" Modified_Date="2025-09-27 22:42:45" Creator="IECUBE" Comments="" ID="bacf32d92bc2f7cbb0f6cbd5c7977ad0">
   <Library_General_Settings>
     <Package_File_Name>NEVSTOP_3rdParty_Dependencies</Package_File_Name>
     <Library_Version>2024.9.0.13</Library_Version>
@@ -79,7 +79,18 @@
     <VI_Package_Configuration_File>NEVSTOP-3rdParty-Dependencies.vipc</VI_Package_Configuration_File>
     <Description>
       <One_Line_Description_Summary>One-click installation of the most commonly used LabVIEW libraries in VIPM, which are heavily used by NEVSTOP-LAB.</One_Line_Description_Summary>
-      <Description>This library is used for one-click installation of the most commonly used LabVIEW libraries in VIPM, which are heavily used by NEVSTOP-Lab. Please note that the copyright of these libraries belongs to their respective owners. Enjoy!
+      <Description># NEVSTOP-3rdParty-Dependencies
+
+[![Image](https://www.vipm.io/package/nevstop_3rdparty_dependencies/badge.svg?metric=installs)](https://www.vipm.io/package/nevstop_3rdparty_dependencies/)
+[![Image](https://www.vipm.io/package/nevstop_3rdparty_dependencies/badge.svg?metric=stars)](https://www.vipm.io/package/nevstop_3rdparty_dependencies/)
+[![Build_VIPM_Library](https://github.com/NEVSTOP-LAB/NEVSTOP-3rdParty-Dependencies/actions/workflows/Build_VIPM_Library.yml/badge.svg)](https://github.com/NEVSTOP-LAB/NEVSTOP-3rdParty-Dependencies/actions/workflows/Build_VIPM_Library.yml)
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/NEVSTOP-LAB/NEVSTOP-3rdParty-Dependencies)](https://github.com/NEVSTOP-LAB/NEVSTOP-3rdParty-Dependencies/releases)
+[![GitHub all releases](https://img.shields.io/github/downloads/NEVSTOP-LAB/NEVSTOP-3rdParty-Dependencies/total)](https://github.com/NEVSTOP-LAB/NEVSTOP-3rdParty-Dependencies/releases)
+
+This library is used for one-click installation of the most commonly used LabVIEW libraries in VIPM, which are heavily used by NEVSTOP-Lab. Please note that the copyright of these libraries belongs to their respective owners. Enjoy!
+
+![palette](./.github/Palette.png)
 
 ## **COPYRIGHT STATEMENT**
 
@@ -92,76 +103,91 @@
 
 &gt; The OpenG Toolkit package installs the OpenG Libraries 4.0: Application Control, Array, Boolean, Buttons Comparison, Dictionary, Error, File, LabVIEW Data, LabVIEW ZIP, Large File, MD5, Message Queue, Numeric, Picture, Port IO, String, Time and Variant Configuration File.
 
-- OpenG Toolkit &gt;= 4.0.1.9
-- OpenG Variant Data Library &gt;= 5.0.0.27
-- OpenG String Library &gt;= 5.0.0.25
+- OpenG Toolkit = 4.0.1.9
+- OpenG Variant Data Library = 5.0.0.27
+- OpenG String Library = 5.0.0.25
+- [REMOVE] OpenG Compression Library : **This library could not be installed silently.**
 
 ## MGI Library
 
 &gt; The MGI Library is a collection of the VIs used most heavily by Moore Good Ideas employees. The Library is free to use and distribute, and is provided as a public service to the LabVIEW Community by Moore Good Ideas. Enjoy!
 
-- MGI Library &gt;= 1.2.0.4
-- MGI Menu Building &gt;= v1.0.1.4
+- MGI Library = 1.2.0.4
+- MGI Menu Building = 1.0.1.4
 
 ## JKI
 
-- JKI State Machine &gt;= 2018.0.7.45
-- EasyXML Toolkit for LabVIEW  &gt;= v3.0.0.170
-- JKI JSON &gt;= v1.1.10.37
+&gt; At JKI we develop software, architect solutions, and design user interfaces to automate, test, and control systems using LabVIEW and Python
+&gt; &lt;br&gt; ??: &lt;https://www.jki.net/&gt;
+
+- JKI State Machine = 2018.0.7.45
+- EasyXML Toolkit for LabVIEW  = 3.0.0.170
+- JKI JSON = 1.1.10.37
 
 ## LAVA
 
-- Robust CSV &gt;= v1.2.0.1 by LAVA
-- UI Tools v1.4.1.74 by LAVA
-- Code Capture Tool v3.2.3-51 by LAVA
+&gt; ??: &lt;https://lavag.org/&gt;
 
-- muParser Expression Parser API v3.0.0.3 by LAVA(2017+ Only)
+- Robust CSV = 1.2.0.1 by LAVA
+- UI Tools = 1.4.1.74 by LAVA
+- Code Capture Tool = 3.2.3 by LAVA
+
+- muParser Expression Parser API = 3.0.0.3 by LAVA `(NOT Include in 2014 version)`
+
+&gt; [!NOTE]
+&gt; `muParser Expression Parser API` needs LabVIEW 2015 at least. So it's not included in `NEVSTOP-3rdParty-Dependencies-lv2014+`
+&gt;
 
 ## GPower
 
 &gt; The GPower Toolkit is free software that provides reuse libraries for the LabVIEW programming environment. Download GPower Toolkit and find support information. You can use this download page to access GPower Toolkit and all available editions are available from this download page.
 
-- GPower Array &gt;= 2016.2.0.27
-- GPower Comparison &gt;= 2016.0.0.4
-- GPower Error &amp; Warning &gt;= 2014.0.0.38
-- GPower Events &gt;= 2012.0.0.7
-- GPower Math &gt;= 2012.1.0.6
-- GPower Numeric &gt;= 2016.2.0.14
-- GPower Overflow &gt;= 2014.0.0.4
-- GPower String &gt;= 2016.1.0.11
-- GPower Timing &gt;= 2017.0.0.26
-- GPower VI Launcher &gt;= 2012.2.0.26
-- GPower VI Register &gt;= 2016.0.0.31
+- GPower Array = 2016.2.0.27
+- GPower Comparison = 2016.0.0.4
+- GPower Error &amp; Warning = 2014.0.0.38
+- GPower Events = 2012.0.0.7
+- GPower Math = 2012.1.0.6
+- GPower Numeric = 2016.2.0.14
+- GPower Overflow = 2014.0.0.4
+- GPower String = 2016.1.0.11
+- GPower Timing = 2017.0.0.26
+- GPower VI Launcher = 2012.2.0.26
+- GPower VI Register = 2016.0.0.31
 
 ## National Instruments
 
-- NI Simple Messaging (STM) Library &gt;= 3.1.0.9
-- NI Asynchronous Message Communication (AMC) Library &gt;= 3.3.1.22
-- NI CVT Client Communication (CCC) &gt;= 3.0.3.9
-- NI Current Value Table &gt;= 3.3.0.13
-- NI Event Logger Library &gt;= 1.0.0.9
-- NI Software Watchdog &gt;= 1.0.0.24
-- NI String Tools Library &gt;= 2.0.0.5
-- NI Syslog Library &gt;= 1.3.3.27
-- NI Linux RT Errno &gt;= 1.1.2.9
-- NI Linux RT Inter-Process Communication &gt;= 1.5.1.19
-- NI Linux RT Utilities &gt;= 1.1.1.9
-- NI RT Management &gt;= 1.1.1.41
+- NI Simple Messaging (STM) Library = 3.1.0.9
+- NI Asynchronous Message Communication (AMC) Library = 3.3.1.22
+- NI CVT Client Communication (CCC) = 3.0.3.9
+- NI Current Value Table = 3.3.0.13
+- NI Event Logger Library = 1.0.0.9
+- NI Software Watchdog = 1.0.0.24
+- NI String Tools Library = 2.0.0.5
+- NI Syslog Library = 1.3.3.27
+- NI Linux RT Errno = 1.1.2.9
+- NI Linux RT Inter-Process Communication = 1.5.1.19
+- NI Linux RT Utilities = 1.1.1.9
+- NI RT Management = 1.1.1.41
+- UIM = 1.10.0.140
 
 ## LabVIEW Open Source Project
 
-- Data Manipulation v1.6.0.16 by LabVIEW Open Source Project
-- OpenSerializer &gt;= v1.2.1.16
-- OpenSerializer.Base64 &gt;= v1.0.2.4
-- OpenSerializer easyXML &gt;= v1.0.0.1
-- OpenSerializer JKI JSON &gt;= v1.0.0.1
-- Epoch Date &amp; Time &gt;= 1.2.0.6
+&gt; Graphical Open Source Project for LabVIEW
+&gt; &lt;br&gt; ??: &lt;https://github.com/LabVIEW-Open-Source&gt;
+
+- Data Manipulation = 1.6.0.16 by LabVIEW Open Source Project
+- OpenSerializer = 1.2.1.16
+- OpenSerializer.Base64 = 1.0.2.4
+- OpenSerializer easyXML = 1.0.0.1
+- OpenSerializer JKI JSON = 1.0.0.1
+- Epoch Date &amp; Time = 1.2.0.6
 
 ## Others
 
-- ZeroMQ Socket Library v3.6.2.112 by Martijn Jasperse
-- SQLite Library v1.15.0.114 by JDP Science
-- Cyclic Table Probes v1.4.10.31 by drjdpowell
+- ZeroMQ Socket Library = 3.6.2.112 by Martijn Jasperse
+- SQLite Library = 1.15.0.114 by JDP Science
+- Cyclic Table Probes = 1.4.10.31 by drjdpowell
+- Advanced Plotting Toolkit = 1.1.0.136 by Heliosphere Research LLC
 </Description>
       <Copyright/>
       <Packager>NEVSTOP</Packager>
@@ -169,7 +195,8 @@
       <Release_Notes>[REMOVE] OpenG Compression Library : **This library could not be installed silently.**
 [fix] Limit all OpenG version to 5.x or 4.x
 [fix] #34 missing libraries
-[add] UIM 1.10.0.140 by NI</Release_Notes>
+[add] #33 UIM 1.10.0.140 by NI
+[add] #32 Advanced Plotting Toolkit v1.1.0.136 by Heliosphere Research LLC</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
