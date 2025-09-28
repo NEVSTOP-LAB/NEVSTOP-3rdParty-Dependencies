@@ -50,8 +50,7 @@ This library is used for one-click installation of the most commonly used LabVIE
 - Robust CSV = 1.2.0.1 by LAVA
 - UI Tools = 1.4.1.74 by LAVA
 - Code Capture Tool = 3.2.3 by LAVA
-
-- muParser Expression Parser API = 3.0.0.3 by LAVA `(NOT Include in 2014 version)`
+- muParser Expression Parser API >= 3.0.0.3 by LAVA `(NOT Include in 2014 version)`
 
 > [!NOTE]
 > `muParser Expression Parser API` needs LabVIEW 2015 at least. So it's not included in `NEVSTOP-3rdParty-Dependencies-lv2014+`
