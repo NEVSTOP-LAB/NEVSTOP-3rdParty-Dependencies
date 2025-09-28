@@ -95,7 +95,7 @@ This library is used for one-click installation of the most commonly used LabVIE
 
 - Data Manipulation = 1.6.0.16 by LabVIEW Open Source Project
 - OpenSerializer = 1.2.1.16
-- OpenSerializer.Base64 = 1.0.2.4
+- OpenSerializer.Base64 = 1.2.0.6
 - OpenSerializer easyXML = 1.0.0.1
 - OpenSerializer JKI JSON = 1.0.0.1
 - Epoch Date & Time = 1.2.0.6
