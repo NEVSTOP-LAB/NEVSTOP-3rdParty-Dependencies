@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-11-09 20:39:48" Modified_Date="2025-09-28 10:30:03" Creator="IECUBE" Comments="" ID="b927f67dbed6d6e0795fa96eb82ddc5a">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-11-09 20:39:48" Modified_Date="2025-09-29 14:52:54" Creator="IECUBE" Comments="" ID="87c85162e47daa7ead95bbc4a8901401">
   <Library_General_Settings>
     <Package_File_Name>NEVSTOP_3rdParty_Dependencies</Package_File_Name>
     <Library_Version>2024.9.0.13</Library_Version>
@@ -20,6 +20,7 @@
       <Additional_External_Dependencies>drjdpowell_lib_cyclic_table_probes =1.5.0.35</Additional_External_Dependencies>
       <Additional_External_Dependencies>drjdpowell_lib_sqlite_labview =1.16.0.115</Additional_External_Dependencies>
       <Additional_External_Dependencies>gpower_lib_all =2017.0.0.11</Additional_External_Dependencies>
+      <Additional_External_Dependencies>heliosphere_research_llc_lib_advanced_plotting_toolkit =1.1.0.136</Additional_External_Dependencies>
       <Additional_External_Dependencies>jki_lib_easyxml =3.0.0.170</Additional_External_Dependencies>
       <Additional_External_Dependencies>jki_lib_json_serialization =1.1.10.37</Additional_External_Dependencies>
       <Additional_External_Dependencies>jki_lib_state_machine =2018.0.7.45</Additional_External_Dependencies>
