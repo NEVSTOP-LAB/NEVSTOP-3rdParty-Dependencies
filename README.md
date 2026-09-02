@@ -39,7 +39,7 @@ This library is used for one-click installation of the most commonly used LabVIE
 > At JKI we develop software, architect solutions, and design user interfaces to automate, test, and control systems using LabVIEW and Python
 > <br> 🔗: <https://www.jki.net/>
 
-- JKI State Machine = 2018.0.7.45
+- JKI State Machine >= 2018.0.7.45
 - EasyXML Toolkit for LabVIEW  = 3.0.0.170
 - JKI JSON = 1.1.10.37
 
