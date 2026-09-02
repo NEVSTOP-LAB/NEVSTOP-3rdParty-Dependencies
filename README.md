@@ -2,7 +2,7 @@
 
 [![Image](https://www.vipm.io/package/nevstop_3rdparty_dependencies/badge.svg?metric=installs)](https://www.vipm.io/package/nevstop_3rdparty_dependencies/)
 [![Image](https://www.vipm.io/package/nevstop_3rdparty_dependencies/badge.svg?metric=stars)](https://www.vipm.io/package/nevstop_3rdparty_dependencies/)
-[![Build_VIPM_Library](https://github.com/NEVSTOP-LAB/NEVSTOP-3rdParty-Dependencies/actions/workflows/Build_VIPM_Library.yml/badge.svg)](https://github.com/NEVSTOP-LAB/NEVSTOP-3rdParty-Dependencies/actions/workflows/Build_VIPM_Library.yml)
+[![LabVIEW-CI](https://github.com/NEVSTOP-LAB/NEVSTOP-3rdParty-Dependencies/actions/workflows/labview-ci.yml/badge.svg)](https://github.com/NEVSTOP-LAB/NEVSTOP-3rdParty-Dependencies/actions/workflows/labview-ci.yml)
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/NEVSTOP-LAB/NEVSTOP-3rdParty-Dependencies)](https://github.com/NEVSTOP-LAB/NEVSTOP-3rdParty-Dependencies/releases)
 [![GitHub all releases](https://img.shields.io/github/downloads/NEVSTOP-LAB/NEVSTOP-3rdParty-Dependencies/total)](https://github.com/NEVSTOP-LAB/NEVSTOP-3rdParty-Dependencies/releases)
